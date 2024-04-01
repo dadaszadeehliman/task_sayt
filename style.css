@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    padding: 0px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__title{
+    width: max-content;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.navbar__lists{
+
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hover:hover{
+    width: max-content;
+    height: 20px;
+    background-color: dimgrey;
+    padding: 20px;
+}
+
+.backgraundpicture{
+    width: 100%;
+    height: 750px;
+    background-image: url(./Pictures/architect.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: -100px -50px;
+}
+.backgraundpicture__yazi{
+    width: 297px;
+    height: 74px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    font-weight: bolder;
+    color: white;
+}
+.backgraundpicture__yazi > b{
+    padding: 10px;
+    background-color:  #000 ;
+}
+
+.prayekt{
+    width: 100%;
+    position: relative;
+}
+
+
+.continer{
+    padding: 0 40px;
+}
+.prayekt_p{
+    height: 40px;
+    margin:  30px 0px ;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.prayekt__1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 20px;
+}
+.prayekt__1 > .prayekt_1_img > img {
+    width: 300px;
+    height: 200px;
+}
+.prayekt_1_img > h3{
+    position: relative;
+    background-color: #000;
+    color: white;
+    top: 18px;
+    width: 130px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.about_p{
+    font-weight: normal !important; 
+    font-size: 18px;
+    height: max-content;
+}
+
+.contact_1 > img{
+    width: 300px;
+    height: 200;
+}
+.contact_1 > p {
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.contact_1 > .solqun{
+    width: max-content;
+    color: dimgrey;
+}
+.contact_1{
+    width: 300px;
+}
+.contact{
+    margin: 80px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contact_1 > button{
+    width: 300px;
+    padding: 10px;
+    border: 0;
+    color: #000;
+}
+.contact_btn:hover{
+    background-color: dimgrey;
+}
